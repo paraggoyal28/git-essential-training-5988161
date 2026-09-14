@@ -10,3 +10,9 @@ show the recent changes after the files are moved to staging area.
 * git log --oneline -> shows each commit message in a single line
 * git log --grep=Example -> shows all the commits having 'Example' keyword in their commit message
 * The git log --graph command displays a visual, text-based ASCII graph in your terminal representing the commit history of your Git repository. It draws colorful lines and symbols (like asterisks *) to illustrate exactly how your branches diverge, evolve, and merge over time
+
+* Best Practices for writing commit messages
+- Should describe exactly what changes were applied 
+- Should be present tense
+- First line of commit message should be no more than 50 characters
+- Could add more detailed explanation underneath
